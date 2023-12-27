@@ -1,0 +1,17 @@
+.header{
+    padding: 30px 0;
+    background-color: #5a4f94;
+    box-shadow: #5a4f94 5px 5px 20px;
+}
+
+.header__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__name-game{
+    color: #F7F9F7;
+    font-size: 40px;
+    font-weight: 700;
+}

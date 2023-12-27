@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    background: linear-gradient(160deg, rgba(78,38,88,1) 20%, rgba(92,83,154,1) 43%, rgba(108,146,180,1) 76%, rgba(160,193,185,1) 99%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    font-family: 'Jost', sans-serif;
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
