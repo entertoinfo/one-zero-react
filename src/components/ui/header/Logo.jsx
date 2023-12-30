@@ -24,8 +24,7 @@ const Logo = () => {
   return (
     <LogoContainer
       className={isRotated ? "rotate" : ""}
-      onClick={handleLogoClick}
-    />
+      onClick={handleLogoClick}/>
   );
 };
 
