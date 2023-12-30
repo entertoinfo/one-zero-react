@@ -1,17 +1,17 @@
-.header{
+.header {
     padding: 20px 0;
     margin: 0px 50px;
     border-radius: 20px;
-    background-color: #4c6a8f;
+    background-color: #4a688d;
 }
 
-.header__row{
+.header__row {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.header__name-game{
+.header__name-game {
     color: #eae8f7;
     font-size: 40px;
     font-weight: 700;
