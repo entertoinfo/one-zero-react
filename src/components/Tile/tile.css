@@ -1,0 +1,29 @@
+.tile__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #D6D3F0;
+    color: #D6D3F0;
+    transition: .2s;
+}
+
+.tile__text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.active{
+    color: #3c618b;
+    transition: .3s;
+    animation:rotate-in-2-cw .5s cubic-bezier(.25,.46,.45,.94) both
+}
+@keyframes rotate-in-2-cw{0%{transform:rotate(-45deg);opacity:0}100%{transform:rotate(0);opacity:1}}
+
+.open{
+    color: #3c618b;
+}
