@@ -2,7 +2,7 @@
     padding: 20px 0;
     margin: 0px 50px;
     border-radius: 20px;
-    background-color: #4a688d;
+    background-color: #3c618b;
 }
 
 .header__row {
@@ -16,3 +16,7 @@
     font-size: 40px;
     font-weight: 700;
 }
+
+
+.header__name-game{animation:header__name-game .7s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes header__name-game{0%{letter-spacing:1em;filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
