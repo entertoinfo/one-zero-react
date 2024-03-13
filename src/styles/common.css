@@ -1,7 +1,8 @@
 body {
-    height: 100vh;
+    margin-bottom: auto;
     background: linear-gradient(350deg, rgba(12,53,71,1) 20%, rgba(7,63,88,1) 43%, rgba(13,34,91,1) 77%, rgba(1,7,23,1) 100%);
-    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
     padding: 10px 0 0;
 }
 

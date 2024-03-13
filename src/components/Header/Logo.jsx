@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logoImg from "../../../image/icons/logo.svg";
+import logoImg from "../../image/icons/logo.svg";
 
 const LogoContainer = styled.div`
   width: 63px;
@@ -24,7 +24,8 @@ const Logo = () => {
   return (
     <LogoContainer
       className={isRotated ? "rotate" : ""}
-      onClick={handleLogoClick}/>
+      onClick={handleLogoClick}
+    />
   );
 };
 
